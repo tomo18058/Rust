@@ -36,6 +36,11 @@ fn main() {
     println!("{}",b);
     println!("{}",heart_eyed_cat);
 
-    
+    let tup = (500, 6.4, 1);
+    let (c,d,e) = tup;
+
+    println!("The value of y is: {}",c);
+    println!("The value of y is: {}",d);
+    println!("The value of y is: {}",e);    
 }
 
