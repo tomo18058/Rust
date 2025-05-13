@@ -42,5 +42,15 @@ fn main() {
     println!("The value of y is: {}",c);
     println!("The value of y is: {}",d);
     println!("The value of y is: {}",e);    
+
+    let tup:(i32,f64,u8) = (500,6.4,1);
+
+    let f = tup.0;
+    let g = tup.1;
+    let h = tup.2;
+
+    println!("x = {}", f);
+    println!("g = {}", g);
+    println!("h = {}", h);
 }
 
